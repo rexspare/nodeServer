@@ -1,5 +1,5 @@
 const express = require('express')
-const router = express.router()
+const router = express.Router()
 const verifyRoles = require('../../middleware/verifyRoles')
 const ROLES_LIST = require('../../config/roles_list')
 const usersController = require('../../controllers/usersController')
